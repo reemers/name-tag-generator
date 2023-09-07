@@ -4,7 +4,7 @@ import UserInput from "./UserInput.js";
 
 class App extends Component {
   state = {
-    names: ["Erin", "Ann", "Nichole", "Sharon", "Maryn"]
+    names: ["Erin", "Ann", "Nichole", "Sharon", "Maryn"],
   };
   addName = (name) => {
     // to learn this awesome spread syntax, check out these examples: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax#Syntax

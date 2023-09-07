@@ -2,7 +2,7 @@ import React, { Component } from "react";
 
 class UserInput extends Component {
   state = {
-    name: ""
+    name: "",
   };
   updateName = (e) => {
     this.setState({ name: e.target.value });
